@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "G:\\repos\\LandXMLtoPoint\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72D2C49D-0AF0-496B-8355-4B2663D7227F}|LandXMLtoPoint.csproj|g:\\repos\\landxmltopoint\\landxmltopoint.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{72D2C49D-0AF0-496B-8355-4B2663D7227F}|LandXMLtoPoint.csproj|solutionrelative:landxmltopoint.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72D2C49D-0AF0-496B-8355-4B2663D7227F}|LandXMLtoPoint.csproj|g:\\repos\\landxmltopoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72D2C49D-0AF0-496B-8355-4B2663D7227F}|LandXMLtoPoint.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,18 +19,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LandXMLtoPoint",
-              "DocumentMoniker": "G:\\repos\\LandXMLtoPoint\\LandXMLtoPoint.csproj",
-              "RelativeDocumentMoniker": "LandXMLtoPoint.csproj",
-              "ToolTip": "G:\\repos\\LandXMLtoPoint\\LandXMLtoPoint.csproj",
-              "RelativeToolTip": "LandXMLtoPoint.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-19T07:46:08.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\repos\\LandXMLtoPoint\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
