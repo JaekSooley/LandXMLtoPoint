@@ -130,8 +130,7 @@ void ProcessXmlFile(string fname, bool autosave = false)
                 + fnameAppend
                 + ".csv";
         
-        File.WriteAllText(outputFname, output);
-
+        File.WriteAllText(outputFname, output, System.Text.Encoding.UTF8);
     }
     else
     {
