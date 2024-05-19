@@ -1,0 +1,14 @@
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.GeneratedMSBuildEditorConfig.editorconfig
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.AssemblyInfoInputs.cache
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.AssemblyInfo.cs
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.csproj.CoreCompileInputs.cache
+G:\repos\LandXMLtoPoint\bin\Debug\net8.0\LandXMLtoPoint.exe
+G:\repos\LandXMLtoPoint\bin\Debug\net8.0\LandXMLtoPoint.deps.json
+G:\repos\LandXMLtoPoint\bin\Debug\net8.0\LandXMLtoPoint.runtimeconfig.json
+G:\repos\LandXMLtoPoint\bin\Debug\net8.0\LandXMLtoPoint.dll
+G:\repos\LandXMLtoPoint\bin\Debug\net8.0\LandXMLtoPoint.pdb
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.dll
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\refint\LandXMLtoPoint.dll
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.pdb
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.genruntimeconfig.cache
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\ref\LandXMLtoPoint.dll
