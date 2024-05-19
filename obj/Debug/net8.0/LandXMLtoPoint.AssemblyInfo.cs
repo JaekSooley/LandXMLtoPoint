@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LandXMLtoPoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f10c25f59086608f822d3e6fe17e2b770672eb39")]
 [assembly: System.Reflection.AssemblyProductAttribute("LandXMLtoPoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LandXMLtoPoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
