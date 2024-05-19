@@ -130,7 +130,40 @@ void ProcessXmlFile(string fname, bool autosave = false)
                 + fnameAppend
                 + ".csv";
         
-        File.WriteAllText(outputFname, output, System.Text.Encoding.UTF8);
+        if (!File.Exists(outputFname))
+        {
+            File.WriteAllText(outputFname, output, System.Text.Encoding.UTF8);
+        }
+        else
+        {
+            UI.Write("File already exists!");
+            UI.Write();
+            UI.Write("Overwrite existing file?");
+            UI.Write();
+            UI.Option("[Y]", "Yes");
+            UI.Option("[N]", "No");
+            UI.Write();
+
+            switch (Input.GetString("Y").ToUpper())
+            {
+                case "Y":
+                    File.WriteAllText(outputFname, output, System.Text.Encoding.UTF8);
+                    break;
+
+                default:
+                    int counter = 0;
+                    while (File.Exists(outputFname))
+                    {
+                        counter++;
+
+                        outputFname = Path.GetDirectoryName(fname) + "\\"
+                            + Path.GetFileNameWithoutExtension(fname)
+                            + fnameAppend + "-" + counter.ToString()
+                            + ".csv";
+                    }
+                    break;
+            }
+        }
     }
     else
     {
