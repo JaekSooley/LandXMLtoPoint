@@ -107,6 +107,7 @@ UI.Header("Goodbye");
 void ProcessXmlFile(string fname, bool autosave = false)
 {
     UI.Write($"\tExtracting {Path.GetFileName(fname)}...");
+
     XmlDocument xmlDoc = new();
     xmlDoc.Load(fname);
 
@@ -130,40 +131,15 @@ void ProcessXmlFile(string fname, bool autosave = false)
                 + fnameAppend
                 + ".csv";
         
-        if (!File.Exists(outputFname))
+        if (File.Exists(outputFname))
         {
-            File.WriteAllText(outputFname, output, System.Text.Encoding.UTF8);
+            UI.Write("\tOverwriting existing file...");
         }
-        else
-        {
-            UI.Write("File already exists!");
-            UI.Write();
-            UI.Write("Overwrite existing file?");
-            UI.Write();
-            UI.Option("[Y]", "Yes");
-            UI.Option("[N]", "No");
-            UI.Write();
 
-            switch (Input.GetString("Y").ToUpper())
-            {
-                case "Y":
-                    File.WriteAllText(outputFname, output, System.Text.Encoding.UTF8);
-                    break;
+        File.WriteAllText(outputFname, output, System.Text.Encoding.UTF8);
 
-                default:
-                    int counter = 0;
-                    while (File.Exists(outputFname))
-                    {
-                        counter++;
-
-                        outputFname = Path.GetDirectoryName(fname) + "\\"
-                            + Path.GetFileNameWithoutExtension(fname)
-                            + fnameAppend + "-" + counter.ToString()
-                            + ".csv";
-                    }
-                    break;
-            }
-        }
+        UI.Write("\tDone!");
+        UI.Write();
     }
     else
     {

@@ -12,3 +12,4 @@ G:\repos\LandXMLtoPoint\obj\Debug\net8.0\refint\LandXMLtoPoint.dll
 G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.pdb
 G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.genruntimeconfig.cache
 G:\repos\LandXMLtoPoint\obj\Debug\net8.0\ref\LandXMLtoPoint.dll
+G:\repos\LandXMLtoPoint\obj\Debug\net8.0\LandXMLtoPoint.sourcelink.json
